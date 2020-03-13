@@ -1,21 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Sep  2 19:47:09 2019
-
-@author: nandini
-"""
-
-"""
-PLEASE NOTE
--------------------------------------------------------------------------------------
-The entire dictionary of colors and hex codes in colors.json has been picked up from 
-the JavaScript file (available for public consumption) given below:
-http://chir.ag/projects/ntc/ntc.js (JavaScript file)
-http://chir.ag/projects/ntc/ (link to creator's website)
--------------------------------------------------------------------------------------
-
-"""
-
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.colors as color
