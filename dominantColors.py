@@ -137,9 +137,7 @@ def TrainKMeans(img):
     cluster_map['color_name'] = [color_name[x] for x in cluster_map['color']]
     print(cluster_map)
     return cluster_map, kmeans
-    
-    
-
+       
 def plotColorClusters(img):
     cluster_map, kmeans = TrainKMeans(img)
     fig = plt.figure()
